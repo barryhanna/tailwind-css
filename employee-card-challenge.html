@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Employee Card with Tailwind CSS</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			font-weight: 400;
+			font-size: 1rem;
+		}
+	</style>
+</head>
+
+<body class="bg-gray-600 flex justify-center items-center h-screen">
+	<div class="bg-gray-300 rounded font-bold">
+		<h2 class="text-gray-700 text-normal p-4">The title of the card here</h2>
+		<div class="flex justify-between mt-2 p-4 bg-white">
+			<div class="status">
+				<p class="inline-block w-auto bg-orange-800 text-gray-100 uppercase rounded-2xl p-1 px-2">Under Review</p>
+			</div>
+			<div>
+				<p>May 14, 1988</p>
+			</div>
+		</div>
+		<div class="mt-2 bg-gray-100 border-gray-300 p-4">
+			<p class="bg-gray-400 p-4 font-normal border-2 rounded">Here is a short bio about this employee</p>
+		</div>
+		<div class="mt-2 p-4">
+			<h3 class="uppercase mb-2 text-gray-700">Employee</h3>
+			<div class="flex items-center gap-2">
+				<div class="bg-blue-700 inline-block rounded-full p-4 text-white">VG</div>
+				<div>
+					<p>Victor Gonzalez</p>
+					<p class="font-normal text-gray-600">Instructor</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
